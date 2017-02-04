@@ -1,0 +1,12 @@
+[package]
+name = "hello-world-derive"
+version = "0.1.0"
+authors = ["Zhijian Huang <zjhuang.davis@gmail.com>"]
+
+[dependencies]
+syn = "*"
+quote = "*"
+
+[lib]
+proc-macro = true
+
