@@ -26,7 +26,7 @@ fn impl_hello_world(ast: &syn::MacroInput) -> quote::Tokens {
     
         impl HelloWorld for #name {
             fn hello_world() {
-                println!("Hello, world , my name is {]",stringify!(#name) );
+                println!("Hello, world , my name is {}",stringify!(#name) );
             }
             
         }
